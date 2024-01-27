@@ -1,0 +1,41 @@
+{
+  "resource": "/{proxy+}",
+  "path": "/example/path",
+  "httpMethod": "GET",
+  "headers": {
+    "Header1": "value1",
+    "Header2": "value2"
+  },
+  "queryStringParameters": {
+    "param1": "value1",
+    "param2": "value2"
+  },
+  "requestContext": {
+    "accountId": "123456789012",
+    "resourceId": "roq9wj",
+    "stage": "prod",
+    "requestId": "deef4878-7910-11e6-8f14-25afc3e9ae33",
+    "requestTime": "02/Mar/2022:18:32:31 +0000",
+    "requestTimeEpoch": 1488466351316,
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "127.0.0.1",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Custom User Agent String",
+      "user": null
+    },
+    "path": "/example/path",
+    "resourcePath": "/{proxy+}",
+    "httpMethod": "GET",
+    "apiId": "abcdef1234"
+  },
+  "body": "SGVsbG8gd29ybGQ=",
+  "isBase64Encoded": true
+}
